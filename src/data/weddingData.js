@@ -8,9 +8,9 @@ export const wedding = {
   family: 'Shravan Family',
   tagline: 'Two Hearts, One Beautiful Journey',
   subTagline: 'Are Getting Married',
-  dateRange: '13—14 & 20 December 2026',
-  // Countdown target: first event (Haldi), 2:00 PM India Standard Time
-  countdownTarget: '2026-12-13T14:00:00+05:30',
+  dateRange: '20 December 2026',
+  // Countdown target: Reception, 12:00 PM India Standard Time
+  countdownTarget: '2026-12-20T12:00:00+05:30',
   invitation:
     'As two hearts come together and begin a beautiful new journey, we warmly invite you to be a part of these cherished celebrations. Your presence, love, and blessings will make these moments even more special and memorable.',
   closing: ['We look forward to celebrating these beautiful moments with you.', 'We will be eagerly waiting for your presence.'],
@@ -21,17 +21,12 @@ export const wedding = {
 
 // mapUrl: paste an exact Google Maps link here; if left empty a Maps search for the venue is used.
 export const venues = {
-  dharti: { name: 'Dharti Resort', place: 'Navsari-Surat, Gujarat', address: 'Dharti Resort, Navsari-Surat, Gujarat', mapUrl: '' },
   orchid: { name: 'Royal Orchid Resort', place: 'Indore (M.P)', address: 'Royal Orchid Resort, Indore (M.P)', mapUrl: '' },
 }
 export const mapLink = (v) => v.mapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.address)}`
 
 export const events = [
-  { id: 'haldi', title: 'Haldi Carnival', sub: 'Ceremony', date: '13 December 2026', time: '2:00 PM onwards', venue: 'dharti', theme: 'haldi', icon: 'sun', image: '/images/events/haldi.jpg' },
-  { id: 'sangeet', title: 'Sangeet', date: '13 December 2026', time: '7:00 PM onwards', venue: 'dharti', theme: 'sangeet', icon: 'music', image: '/images/events/Sangeet.jpg' },
-  { id: 'olympics', title: 'Wedding Olympics', sub: 'Fun Games and Activation', date: '14 December 2026', time: '10:00 AM onwards', venue: 'dharti', theme: 'olympics', icon: 'trophy', image: '/images/events/WeddingOlympics.jpg' },
-  { id: 'baraat', title: 'Baraat and Phere', date: '14 December 2026', time: '2:00 PM onwards', venue: 'dharti', theme: 'baraat', icon: 'sparkles', image: '/images/events/Barrat.jpg' },
-  { id: 'reception', title: 'Reception', date: '20 December 2026', time: '12:00 PM onwards', venue: 'orchid', theme: 'reception', icon: 'wine', image: '/images/events/Reception.jpg' },
+  { id: 'reception', title: 'Reception', sub: 'Celebration of Love', date: '20 December 2026', time: '12:00 PM onwards', venue: 'orchid', theme: 'reception', icon: 'wine', image: '/images/events/Reception.jpg' },
 ]
 
 // focus = CSS object-position so the couple is never cropped out.

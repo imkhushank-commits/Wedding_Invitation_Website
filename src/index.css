@@ -282,3 +282,16 @@ button{font:inherit;cursor:pointer;background:none;border:0;color:inherit}
 
 /* hero photo is portrait: on wide screens shift the crop up so both faces stay in frame */
 @media (min-aspect-ratio:1/1){.hero-img{object-position:50% 20% !important}}
+
+/* Single featured Reception card */
+.event-grid.single .event{flex:1 1 100%;max-width:820px;padding:18px}
+.event-grid.single .ev-frame{padding:1.6rem 1.6rem 2.2rem;gap:.5rem;outline-offset:-10px}
+.event-grid.single .ev-img-wrap{aspect-ratio:3/2;margin-bottom:1.6rem}
+.event-grid.single .ev-title{font-size:clamp(3.4rem,9vw,5.2rem)}
+.event-grid.single .ev-sub{font-size:.75rem}
+.event-grid.single .ev-line{width:90px;margin:1rem 0}
+.event-grid.single .ev-date{font-size:clamp(1.6rem,4vw,2.1rem)}
+.event-grid.single .ev-time{font-size:clamp(1.2rem,3vw,1.5rem)}
+.event-grid.single .ev-venue{font-size:clamp(1.3rem,3.2vw,1.65rem);margin:1.2rem 0 1.6rem}
+.event-grid.single .btn-line{padding:.85rem 1.8rem;font-size:.72rem}
+@media (max-width:700px){.event-grid.single .event{padding:12px}.event-grid.single .ev-frame{padding:1rem 1rem 1.6rem}}

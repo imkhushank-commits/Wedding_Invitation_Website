@@ -18,7 +18,7 @@ function buildMessage({ name, guests, message }) {
     `👥 *Guests attending:* ${n} ${n === 1 ? 'person' : 'people'}`,
     `📅 *Dates:* ${wedding.dateRange}`,
     '',
-    '*Celebrations we will be joining:*',
+    '*Celebration we will be joining:*',
     ...events.map((e) => `• ${e.title} — ${e.date}`),
   ]
   if (message.trim()) lines.push('', `💌 *Our message for you:*`, message.trim())
