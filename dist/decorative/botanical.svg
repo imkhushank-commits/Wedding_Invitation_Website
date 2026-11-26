@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+<defs>
+<g id="sprig"><path d="M0 0C20-40 40-90 30-150" fill="none"/>
+<path d="M12-30c-22-6-30-24-28-38c18 4 28 18 28 38z"/><path d="M22-62c22-4 34-20 34-36c-20 2-32 16-34 36z"/><path d="M28-100c-20-8-26-26-22-40c16 6 24 20 22 40z"/><path d="M31-128c18-6 26-20 26-34c-16 4-24 16-26 34z"/>
+<circle cx="30" cy="-152" r="7"/></g>
+<g id="flower"><g><circle r="6"/><ellipse cx="0" cy="-16" rx="9" ry="14"/><ellipse cx="0" cy="-16" rx="9" ry="14" transform="rotate(72)"/><ellipse cx="0" cy="-16" rx="9" ry="14" transform="rotate(144)"/><ellipse cx="0" cy="-16" rx="9" ry="14" transform="rotate(216)"/><ellipse cx="0" cy="-16" rx="9" ry="14" transform="rotate(288)"/></g></g>
+<g id="art"><use xlink:href="#sprig" x="60" y="380"/><use xlink:href="#sprig" x="210" y="390" transform="rotate(-18 210 390)"/><use xlink:href="#flower" transform="translate(180 225) scale(1.5)"/><use xlink:href="#flower" x="250" y="90"/><use xlink:href="#sprig" x="330" y="330" transform="rotate(24 330 330)"/><use xlink:href="#flower" x="80" y="60"/></g>
+</defs>
+<g stroke="#e8a3a3" stroke-opacity=".22" stroke-width="1.6" fill="none" transform="translate(-1.2 -1.2)"><use xlink:href="#art"/></g>
+<g stroke="#1e0208" stroke-opacity=".55" stroke-width="1.6" fill="none" transform="translate(1.2 1.2)"><use xlink:href="#art"/></g>
+<g stroke="#7a2436" stroke-opacity=".5" stroke-width="1" fill="none"><use xlink:href="#art"/></g>
+</svg>
